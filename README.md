@@ -85,14 +85,14 @@ Arch Medic is provided "as-is" and "as-available", without any express or implie
 
 By using this program, you acknowledge and agree that:
 
-No Warranty: The developer makes no guarantees or representations regarding the functionality or performance of the software. While every effort has been made to ensure the program functions as intended, there is no warranty, express or implied, that the software will be error-free or free from interruptions.
+**No Warranty:** The developer makes no guarantees or representations regarding the functionality or performance of the software. While every effort has been made to ensure the program functions as intended, there is no warranty, express or implied, that the software will be error-free or free from interruptions.
 
-Risk of Use: You assume full responsibility for any risks associated with using Arch Medic. The software is intended for use as a tool to diagnose and address issues within an Arch Linux system; however, it is your responsibility to ensure you have adequate backups and precautions in place before using the program.
+**Risk of Use:** You assume full responsibility for any risks associated with using Arch Medic. The software is intended for use as a tool to diagnose and address issues within an Arch Linux system; however, it is your responsibility to ensure you have adequate backups and precautions in place before using the program.
 
-No Liability: The developer shall not be held liable for any damages arising from the use, misuse, or inability to use Arch Medic, including but not limited to data loss, system failures, hardware damage, software conflicts, or any other direct or indirect damages that may occur. This includes any consequences from following the recommendations or actions suggested by the program.
+**No Liability:** The developer shall not be held liable for any damages arising from the use, misuse, or inability to use Arch Medic, including but not limited to data loss, system failures, hardware damage, software conflicts, or any other direct or indirect damages that may occur. This includes any consequences from following the recommendations or actions suggested by the program.
 
-Backup Recommendation: It is strongly advised to always create backups of critical data and system settings before using any system maintenance or repair tools, including Arch Medic.
+**Backup Recommendation:** It is strongly advised to always create backups of critical data and system settings before using any system maintenance or repair tools, including Arch Medic.
 
-Use at Your Own Risk: By using this program, you agree that you are solely responsible for any outcomes resulting from its use. The developer expressly disclaims any liability for damages, losses, or legal consequences resulting from actions taken while using the software.
+**Use at Your Own Risk:** By using this program, you agree that you are solely responsible for any outcomes resulting from its use. The developer expressly disclaims any liability for damages, losses, or legal consequences resulting from actions taken while using the software.
 
 This disclaimer applies to the maximum extent permitted by applicable law. If any part of this disclaimer is found to be invalid or unenforceable, the remainder will continue in full force and effect.
