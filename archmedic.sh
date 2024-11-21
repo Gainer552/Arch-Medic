@@ -151,6 +151,7 @@ while true; do
 		else
 			echo "Symlink already exists!"
 			echo
+   		fi;;
 	*) 	echo
 		echo "Please make a valid selection";;
 	esac
