@@ -62,6 +62,7 @@ while true; do
 	echo "10) Downgrade a package"
 	echo "11) Download timeshift to create system restore points."
 	echo "12) Restore system to previous state."
+	echo "13) Fix broken symlinks."
 	echo
 
 	# Prompt user for selection.
@@ -126,6 +127,30 @@ while true; do
 	echo
 	echo "System restoration complete!"
 	fi;;
+	13) 
+		read -p "What directory would you like to search in? Will default to current directory if no answer is given. " dir
+		dir="${dir:-.}"
+		sudo find "$dir" -type l ! -exec test -e {} \; -exec rm -v {} \;
+		echo
+		read -p "Would you like to repair the symlink(s)? (y/n): " create_symlink
+		echo
+		read -p "Enter the name of the missing directory: " new_dir
+		if [[ ! -d "$new_dir" ]]; then
+			sudo mkdir -p "$new_dir"
+			echo "Directory created!"
+			echo
+		else
+			echo "Directory already exists!"
+			echo
+		fi
+		read -p "Path of the new symlink? " new_symlink
+		if [[ ! -e "$new_symlink" ]]; then
+			sudo ln -s "$new_dir" "$new_symlink"
+			echo "Symlink created!"
+			echo
+		else
+			echo "Symlink already exists!"
+			echo
 	*) 	echo
 		echo "Please make a valid selection";;
 	esac
